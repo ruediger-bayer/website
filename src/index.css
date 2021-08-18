@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*tailwind: @apply for custom css*/
+.service-card {
+    @apply flex flex-col justify-center items-center bg-white h-screen py-40;
+}
+
+.center-content {
+    @apply flex flex-col justify-center items-center;
+}
+
+.font-bitter {
+    font-family: 'Bitter', serif;
+  }
+  
